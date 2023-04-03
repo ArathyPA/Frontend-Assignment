@@ -1,5 +1,17 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+  
+}
+.textfield{
+  font-size: 18px; 
+  height: 90vh;
+  width: 40vw;
+  word-wrap: break-word;
+  word-break: break-all;
 }
 
 .App-logo {
@@ -35,4 +47,23 @@
   to {
     transform: rotate(360deg);
   }
+}
+.label{
+display:flex;
+}
+.form{background-color: aliceblue; box-sizing: content-box; border: 1px solid black;padding: 20px;}
+.grouplabel{
+  display:flex;  
+  font-size: large;
+  background-color: #61dafb;
+  margin-right:15em;
+  margin-left: 0px;
+  margin-top: 20px;
+  
+}
+.Containerrow{
+  margin: 100px;
+}
+.selectdiv{
+  margin:20px;
 }
